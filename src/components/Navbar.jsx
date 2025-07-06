@@ -57,7 +57,7 @@ const Navbar = () => {
           ))}
         </ul>
         <a
-          href="/images/resume/myResume"
+          href="/images/resume/myResume.pdf"
           download
           className="bg-purple-500 text-white font-bold px-5 py-2 rounded-2xl hover:bg-purple-600 cursor-pointer duration-200 ml-5"
         >
