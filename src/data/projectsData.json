@@ -2,8 +2,8 @@
   {
     "name": "Portfolio",
     "image": "/images/projectImages/portfolio.png",
-    "link": "https://www.timtb.dev/",
-    "sourceCode": "https://github.com/vikas-git1/NewsPaper",
+    "link": "https://vikas-codes.netlify.app/",
+    "sourceCode": "https://github.com/vikas-git1/Vikas-Portfolio",
     "description": "This is my personal portfolio website crafted using React.js to showcase my skills, projects, and professional journey as a Front-End React Developer.\n\n🔧 Technologies Used:\n- React.js\n- Tailwind CSS\n- Framer Motion (animations)\n- React Icons\n- React Router (for future extensibility)\n\n✨ Features:\n- Smooth scroll navigation\n- Responsive design for all screen sizes\n- Animated sections using Framer Motion\n- Detailed project showcase with modal-based descriptions\n- Contact form using Formspree (fully functional)\n- Downloadable resume\n- Clean UI with consistent theme and design\n\n💡 Purpose:\nThis portfolio acts as my digital resume to demonstrate real-world front-end skills, attention to UI/UX, and the ability to build production-ready React applications.\n\n🚀 Goal:\nTo present myself to recruiters and collaborators by sharing my capabilities, internship experience, and passion for building modern web applications."
   },
   {
