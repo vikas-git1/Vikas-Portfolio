@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Counter",
+    "image": "/images/projectImages/counter.png",
+    "link": "https://www.timtb.dev/",
+    "sourceCode": "https://github.com/vikas-git1/Counter",
+    "description": "Counter App – A simple React app that allows users to increment or decrement a number between -5 and 15. It uses the useState hook to manage the counter state and provides smooth, controlled user interaction."
+  },
+  {
+    "name": "Timer",
+    "image": "/images/projectImages/timer.png",
+    "link": "https://www.timtb.dev/",
+    "sourceCode": "https://github.com/vikas-git1/Timer",
+    "description": "Timer App – A React-based countdown timer starting from 59 seconds. Users can start/pause and reset the timer. It uses the useState and useEffect hooks to manage state and side effects for real-time countdown functionality."
+  },
+  {
+    "name": "Clock ",
+    "image": "/images/projectImages/clock.png",
+    "link": "https://www.timtb.dev/",
+    "sourceCode": "https://github.com/vikas-git1/Clock",
+    "description": "Clock App – A real-time digital clock built with React, displaying the current time in 12-hour format with AM/PM. It uses useState and useEffect hooks to update the time every second dynamically."
+  },
+  {
+    "name": "Stopwatch",
+    "image": "/images/projectImages/stop-watch.png",
+    "link": "https://www.timtb.dev/",
+    "sourceCode": "https://github.com/vikas-git1/Stop-Watch",
+    "description": "Stopwatch App – A React stopwatch that tracks time in minutes and seconds, with start, pause, and reset controls. It uses useState and useEffect hooks to handle real-time updates and user interactions."
+  },
+  {
+    "name": "BGC Changer",
+    "image": "/images/projectImages/bgc-changer.png",
+    "link": "https://www.timtb.dev/",
+    "sourceCode": "https://github.com/vikas-git1/BackGround-Color-Changer",
+    "description": "Background Color Changer – A React app that changes the background color dynamically using color buttons. It uses the useState hook to update the background based on user selection from a list of predefined colors."
+  },
+  {
+    "name": "Password Strength Checker",
+    "image": "/images/projectImages/pass-strength.png",
+    "link": "https://www.timtb.dev/",
+    "sourceCode": "https://github.com/vikas-git1/Password-Strength-Checker",
+    "description": "Password Strength Checker – A React app that checks the strength of a password based on its length and presence of special characters. It uses useState and useRef hooks, and allows users to copy the password to the clipboard with a single click."
+  }
+]

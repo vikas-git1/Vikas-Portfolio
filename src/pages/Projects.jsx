@@ -6,8 +6,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 import ProjectCard from "../components/ProjectCard";
 import projectsData from "../data/projectsData.json";
-import practiceProjectsData from "../data/practiceProjectsData.json";
-import PracticeProjectCard from "../components/PracticeProjectCard";
 
 const Projects = () => {
   return (
