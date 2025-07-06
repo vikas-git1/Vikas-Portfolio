@@ -1,1 +1,14 @@
+/* src/index.css */
 @import "tailwindcss";
+body {
+  /* background: linear-gradient(45deg, gray, rgb(20, 19, 19)); */
+  background: black;
+  min-height: 100vh;
+}
+html {
+  scroll-behavior: smooth;
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none !important;
+}
