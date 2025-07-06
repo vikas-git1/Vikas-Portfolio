@@ -16,7 +16,7 @@ const Navbar = () => {
     visible: {
       opacity: 1,
       height: "auto",
-      paddingTop: 10,
+      paddingTop: 11,
       paddingBottom: 10,
       transition: { duration: 0.4, ease: "easeInOut" },
     },
