@@ -42,8 +42,8 @@ const Projects = () => {
       </div>
 
       {/* Practice Projects Slider */}
-      <h2 className="text-2xl font-semibold text-purple-400 mt-8">
-        Beginners Friendly Projects
+      <h2 className="text-2xl font-semibold text-white mt-8">
+        20+ Practice Projects
       </h2>
 
       <div className="w-full max-w-xl relative">
