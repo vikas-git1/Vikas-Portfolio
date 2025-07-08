@@ -1,5 +1,55 @@
 [
   {
+    "name": "Random color generator",
+    "image": "/images/projectImages/randomColor.png",
+    "link": "https://random-color-generaterr.netlify.app/",
+    "sourceCode": "https://github.com/vikas-git1/Random-Color-Generator",
+    "description": "This Random Color Generator is a simple React-based project that lets users generate random HEX color codes with a single click. The generated color is instantly applied as the background, providing a live preview. Users can also copy the color code to the clipboard using the copy button. Built using React hooks like useState and useRef, this project is a fun and interactive way to explore dynamic styling and user interaction in React."
+  },
+
+  {
+    "name": "Age Calculator",
+    "image": "/images/projectImages/ageCalculator.png",
+    "link": "https://age-calculator-vikas.netlify.app/",
+    "sourceCode": "https://github.com/vikas-git1/Age-Calculator",
+    "description": "This React Age Calculator is a simple yet functional web app built using React JS. It allows users to input their birthdate using a native date picker and calculates their exact age in years, months, and days. The app uses the useState hook to manage the calculated age and useRef to directly access the input value. Upon clicking the Calculate button, the difference between the current date and the entered birthdate is computed with proper adjustments for negative months or days. The result is displayed dynamically below the input. The layout is styled using a separate CSS file (AgeCalculator.css) to ensure a clean and responsive design. This project demonstrates the use of hooks, DOM manipulation, and basic date arithmetic in React."
+  },
+  {
+    "name": "Imgae Crousel",
+    "image": "/images/projectImages/imageCarousel.png",
+    "link": "https://image-carousel-vikas.netlify.app/",
+    "sourceCode": "https://github.com/vikas-git1/Image-Carousel",
+    "description": "This Image Carousel project is built using React and showcases a clean and functional slider component. It uses the useState hook to manage the currently displayed image index and allows users to navigate through a series of temple images using left and right arrow buttons imported from react-icons. The navigation wraps around when reaching the beginning or end of the image array, ensuring smooth cycling. The carousel layout and button positioning are styled with an external CSS file (Carousel.css) for a visually appealing and responsive interface. This project demonstrates the use of props, component reusability, and basic image slider logic in React."
+  },
+  {
+    "name": "Accordian",
+    "image": "/images/projectImages/accordian.png",
+    "link": "https://accordian-vikas.netlify.app/",
+    "sourceCode": "https://github.com/vikas-git1/Accordion",
+    "description": "This FAQ Accordion project is built using React and implements an interactive accordion-style layout where users can expand or collapse individual questions to reveal their answers. The Faqs component maintains the currently open accordion index using the useState hook, allowing only one question to be open at a time. It reads its content from a local Data.json file, which contains the questions and answers. Each FAQ item is passed to a reusable Accordion component that displays the question and toggles the answer's visibility based on the isOpen prop. The styling is managed using an external CSS file (Faqs.css), providing a neat and responsive UI. This project highlights key React concepts like component composition, conditional rendering, props, and controlled state for interactive elements."
+  },
+  {
+    "name": "Infinite Scroll",
+    "image": "/images/projectImages/infiniteScroll.png",
+    "link": "https://infinite-scroll-vikas.netlify.app/",
+    "sourceCode": "https://github.com/vikas-git1/Infinite-Scroll",
+    "description": "This React.js project demonstrates infinite scrolling by fetching cryptocurrency market data from the CoinGecko API. It uses React’s useState and useEffect hooks to manage data and scroll-based pagination. As the user scrolls to the bottom of the page, more data is fetched dynamically without any button clicks. A loading spinner appears while data is being retrieved, enhancing the user experience. The project is component-based, with a FetchData component handling API calls and scroll logic, and an InfiniteScroll component rendering the coin data. This setup offers a clean and modern approach to loading paginated content smoothly in a single-page application."
+  },
+  {
+    "name": "Pagination",
+    "image": "/images/projectImages/pagination.png",
+    "link": "https://pagination-vikas.netlify.app/",
+    "sourceCode": "https://github.com/vikas-git1/Pagination",
+    "description": "This project is a React-based Product Pagination App that fetches product data from the DummyJSON API and displays them with client-side pagination. It uses React hooks like useState and useEffect to manage state and side-effects, and conditionally renders product cards 10 at a time per page. The app features clean UI design with responsive cards, a dynamic pagination bar, and smooth scroll-to-top on page change. It also includes styling for hover effects and disables navigation arrows when not applicable. This project demonstrates fundamental frontend development concepts such as API integration, dynamic rendering, pagination logic, and user-friendly styling using plain CSS."
+  },
+  {
+    "name": "Random Password generator",
+    "image": "/images/projectImages/randomPassword.png",
+    "link": "https://random-password-generator-vikas.netlify.app/",
+    "sourceCode": "https://github.com/vikas-git1/Random-Password-Generator",
+    "description": "This React project is a Random Password Generator built using functional components, React hooks (useState, useRef), and styled with custom CSS. It allows users to generate secure passwords by selecting the desired character types (numbers, alphabets, special characters) and adjusting the password length using a range slider (between 6 and 20 characters). The generatePass function dynamically composes a password based on the selected criteria. The generated password is shown in a read-only input field, and a Copy Password button allows users to quickly copy it to the clipboard using the Clipboard API. The project demonstrates essential React features like controlled components, state handling, conditional rendering, and event management, making it a great utility tool for learning and practicing modern React development."
+  },
+  {
     "name": "Counter",
     "image": "/images/projectImages/counter.png",
     "link": "https://www.timtb.dev/",

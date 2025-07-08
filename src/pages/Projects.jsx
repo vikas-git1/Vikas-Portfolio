@@ -1,15 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
 import { HiChevronLeft, HiChevronRight } from "react-icons/hi";
+import { AnimatePresence, motion } from "framer-motion";
 import "swiper/css";
 import "swiper/css/navigation";
 import ProjectCard from "../components/ProjectCard";
+import PracticeProjectCard from "../components/PracticeProjectCard";
 import projectsData from "../data/projectsData.json";
 import practiceProjectsData from "../data/practiceProjectsData.json";
-import PracticeProjectCard from "../components/PracticeProjectCard";
+import { FaTimes } from "react-icons/fa";
 
 const Projects = () => {
+  const [showModal, setShowModal] = useState(false);
+  const [selectedProject, setSelectedProject] = useState(null);
+
+  const openModal = (project) => {
+    setSelectedProject(project);
+    setShowModal(true);
+  };
+
+  const closeModal = () => {
+    setShowModal(false);
+    setSelectedProject(null);
+  };
+
   return (
     <section
       id="projects"
@@ -42,19 +57,19 @@ const Projects = () => {
           loop={true}
           slidesPerView={1}
           centeredSlides={true}
-          speed={600} // smooth animation
+          speed={600}
           spaceBetween={30}
         >
           {practiceProjectsData.map((project, i) => (
             <SwiperSlide key={i}>
               <div className="flex justify-center">
-                <PracticeProjectCard project={project} />
+                <PracticeProjectCard project={project} onOpen={openModal} />
               </div>
             </SwiperSlide>
           ))}
         </Swiper>
 
-        {/* Custom Beautiful Arrows */}
+        {/* Custom Arrows */}
         <button className="swiper-button-prev absolute top-1/2 -left-6 -translate-y-1/2 bg-white hover:bg-purple-100 transition-all duration-300 w-10 h-10 rounded-full shadow-lg z-10 flex items-center justify-center">
           <HiChevronLeft className="text-purple-500 text-2xl" />
         </button>
@@ -63,6 +78,40 @@ const Projects = () => {
           <HiChevronRight className="text-purple-500 text-2xl" />
         </button>
       </div>
+
+      {/* Modal */}
+      <AnimatePresence>
+        {showModal && selectedProject && (
+          <motion.div
+            className="fixed inset-0 bg-black bg-opacity-60 z-[9999] flex items-center justify-center"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+          >
+            <motion.div
+              className="bg-[#1f2937] text-white max-w-2xl w-[90%] p-6 rounded-lg shadow-xl relative"
+              initial={{ scale: 0.8 }}
+              animate={{ scale: 1 }}
+              exit={{ scale: 0.8 }}
+              transition={{ duration: 0.3 }}
+            >
+              <button
+                onClick={closeModal}
+                className="absolute top-3 right-3 text-red-400 hover:text-red-600"
+              >
+                <FaTimes size={20} />
+              </button>
+              <h3 className="text-2xl font-bold mb-4 text-purple-400">
+                {selectedProject.name} - Description
+              </h3>
+              <div className="max-h-[60vh] overflow-y-auto pr-1 text-sm leading-relaxed">
+                {selectedProject.description ||
+                  "No detailed description provided yet."}
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </section>
   );
 };
