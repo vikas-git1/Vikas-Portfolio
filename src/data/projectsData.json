@@ -9,14 +9,14 @@
   {
     "name": "The Rise News App",
     "image": "/images/projectImages/theRise.png",
-    "link": "https://www.timtb.dev/",
+    "link": "https://the-rise-news-vikas.netlify.app/",
     "sourceCode": "https://github.com/vikas-git1/NewsPaper",
     "description": "This News App is a modern, responsive news aggregator built using React.js. It fetches real-time articles from various popular sources like BBC, NDTV, Hindustan Times, The Hindu, and Washington Post using the News API, and supports category-based filtering, search functionality, and user authentication via Firebase.\n\nKey features include:\n- 🔐 Private Routes for source-specific news (e.g., BBC, NDTV)\n- 🔎 Search bar for finding articles by topic\n- 🌙 Dark/Light mode toggle for better readability\n- 📄 Bookmark functionality to save favorite articles\n- 📄 404 Page and error handling\n- 🔄 Pagination for smooth content browsing\n- ⚛️ Built using React Context API for global state management\n- 🎨 Consistent orange-themed UI with enhanced image handling\n\nThis project showcases clean component structuring, Firebase integration, protected routing with React Router, and API-based data handling in a real-world context.This News App is a modern, responsive news aggregator built using React.js. It fetches real-time articles from various popular sources like BBC, NDTV, Hindustan Times, The Hindu, and Washington Post using the News API, and supports category-based filtering, search functionality, and user authentication via Firebase.\n\nKey features include:\n- 🔐 Private Routes for source-specific news (e.g., BBC, NDTV)\n- 🔎 Search bar for finding articles by topic\n- 🌙 Dark/Light mode toggle for better readability\n- 📄 Bookmark functionality to save favorite articles\n- 📄 404 Page and error handling\n- 🔄 Pagination for smooth content browsing\n- ⚛️ Built using React Context API for global state management\n- 🎨 Consistent orange-themed UI with enhanced image handling\n\nThis project showcases clean component structuring, Firebase integration, protected routing with React Router, and API-based data handling in a real-world context."
   },
   {
     "name": "Brilliant Secure EMI",
     "image": "/images/projectImages/brilliant.png",
-    "link": "https://www.timtb.dev/",
+    "link": "https://www.brilliantsecure.com",
     "sourceCode": "https://github.com/vikas-git1/NewsPaper",
     "description": ""
   }
