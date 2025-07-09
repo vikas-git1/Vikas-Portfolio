@@ -7,15 +7,15 @@
     "description": "This is my personal portfolio website crafted using React.js to showcase my skills, projects, and professional journey as a Front-End React Developer.\n\n🔧 Technologies Used:\n- React.js\n- Tailwind CSS\n- Framer Motion (animations)\n- React Icons\n- React Router (for future extensibility)\n\n✨ Features:\n- Smooth scroll navigation\n- Responsive design for all screen sizes\n- Animated sections using Framer Motion\n- Detailed project showcase with modal-based descriptions\n- Contact form using Formspree (fully functional)\n- Downloadable resume\n- Clean UI with consistent theme and design\n\n💡 Purpose:\nThis portfolio acts as my digital resume to demonstrate real-world front-end skills, attention to UI/UX, and the ability to build production-ready React applications.\n\n🚀 Goal:\nTo present myself to recruiters and collaborators by sharing my capabilities, internship experience, and passion for building modern web applications."
   },
   {
-    "name": "Portfolio",
-    "image": "/images/projectImages/portfolio.png",
+    "name": "The Rise News App",
+    "image": "/images/projectImages/theRise.png",
     "link": "https://www.timtb.dev/",
     "sourceCode": "https://github.com/vikas-git1/NewsPaper",
-    "description": ""
+    "description": "This News App is a modern, responsive news aggregator built using React.js. It fetches real-time articles from various popular sources like BBC, NDTV, Hindustan Times, The Hindu, and Washington Post using the News API, and supports category-based filtering, search functionality, and user authentication via Firebase.\n\nKey features include:\n- 🔐 Private Routes for source-specific news (e.g., BBC, NDTV)\n- 🔎 Search bar for finding articles by topic\n- 🌙 Dark/Light mode toggle for better readability\n- 📄 Bookmark functionality to save favorite articles\n- 📄 404 Page and error handling\n- 🔄 Pagination for smooth content browsing\n- ⚛️ Built using React Context API for global state management\n- 🎨 Consistent orange-themed UI with enhanced image handling\n\nThis project showcases clean component structuring, Firebase integration, protected routing with React Router, and API-based data handling in a real-world context.This News App is a modern, responsive news aggregator built using React.js. It fetches real-time articles from various popular sources like BBC, NDTV, Hindustan Times, The Hindu, and Washington Post using the News API, and supports category-based filtering, search functionality, and user authentication via Firebase.\n\nKey features include:\n- 🔐 Private Routes for source-specific news (e.g., BBC, NDTV)\n- 🔎 Search bar for finding articles by topic\n- 🌙 Dark/Light mode toggle for better readability\n- 📄 Bookmark functionality to save favorite articles\n- 📄 404 Page and error handling\n- 🔄 Pagination for smooth content browsing\n- ⚛️ Built using React Context API for global state management\n- 🎨 Consistent orange-themed UI with enhanced image handling\n\nThis project showcases clean component structuring, Firebase integration, protected routing with React Router, and API-based data handling in a real-world context."
   },
   {
-    "name": "Portfolio",
-    "image": "/images/projectImages/portfolio.png",
+    "name": "Brilliant Secure EMI",
+    "image": "/images/projectImages/brilliant.png",
     "link": "https://www.timtb.dev/",
     "sourceCode": "https://github.com/vikas-git1/NewsPaper",
     "description": ""

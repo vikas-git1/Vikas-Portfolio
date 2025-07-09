@@ -27,8 +27,10 @@ const ProjectCard = ({ project }) => {
             alt={project.name}
             className="w-full h-full object-cover "
           />
-          <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-center py-2 rounded-b-md">
-            <h3 className="text-xl font-semibold text-white">{project.name}</h3>
+          <div className="absolute bottom-[0] left-1/2 -translate-x-1/2 bg-black bg-opacity-0 px-4 py-1 rounded">
+            <h3 className="text-lg md:text-xl font-semibold text-white text-center whitespace-nowrap">
+              {project.name}
+            </h3>
           </div>
         </div>
 
